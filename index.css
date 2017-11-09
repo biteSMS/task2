@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: #fbfdf1;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    text-align: center;
+    margin: 0 auto;
+    min-width: 1400px;
+}
+
+#nav {
+    background: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 6;
+}
+
+
+/* 使导航栏居中 */
+
+.length {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    margin-top: 10px;
+}
+
+.ul,
+.ul li {
+    list-style: none;
+    float: right;
+    display: inline;
+}
+
+.ul li {
+    font-size: 17px;
+    height: 55px;
+    line-height: 55px;
+    margin: auto 13px;
+}
+
+.ul li a {
+    text-decoration: none;
+}
+
+.ul li:hover,
+.ul li a:hover {
+    background: rgb(165, 221, 44);
+    color: #ffffff;
+}
+
+#sky {
+    background: url(img/sky.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+}
+
+#mountain {
+    background: url(img/mountain.png);
+    background-size: cover;
+    z-index: 2;
+    width: 100%;
+    height: 47vw;
+    margin: -30vw auto;
+}
+
+#road {
+    background: url(img/road.png) no-repeat center center;
+    background-size: contain;
+    z-index: 3;
+    width: 100%;
+    height: 60vw;
+    margin-top: 0;
+}
+
+#car {
+    background: url(img/car.png) no-repeat center center;
+    background-size: contain;
+    z-index: 4;
+    width: 36.7vw;
+    height: 17vw;
+    margin-top: -53vw;
+    margin-left: 29vw;
+}
+
+#font {
+    background: url(img/font.png) no-repeat center center;
+    background-size: contain;
+    z-index: 5;
+    width: 39.5vw;
+    height: 20vw;
+    margin-top: -32.2vw;
+    margin-left: 28vw;
+}
+
+#flypeople {
+    background: url(img/flypeople.png);
+    background-size: contain;
+    z-index: 5;
+    width: 8vw;
+    height: 16vw;
+    margin-top: -22vw;
+    margin-left: 14vw;
+}
+
+#walkpeople {
+    background: url(img/walkpeople.png);
+    background-size: 100% 100%;
+    z-index: 5;
+    width: 11vw;
+    height: 22vw;
+    margin-top: 5vw;
+    margin-left: 60vw;
+}
+
+#contain {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#map {
+    position: relative;
+    margin-top: 0px;
+    height: 1000px;
+}
+
+#map_title {
+    background: url(img/mapTitle.png);
+    background-size: cover;
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+}
+
+#map_border {
+    width: 1150px;
+    margin-top: -150px;
+    margin-left: -80px;
+}
+
+#map_main {
+    margin-top: -605px;
+    margin-left: 7px;
+}
+#army_title{
+    background: url(img/armyTitle.png);
+    background-size: cover;
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    top: 850px;
+    left: 350px;
+}
+#army_main{
+    margin-top: -40px;
+    margin-left: -130px;
+}
+#army_button{
+    margin-top: -250px;
+    margin-left: 600px;
+}
+#strategyTitle{
+    margin-top: 250px;
+    margin-left: -500px;
+}
+#mathTitle{
+    margin-top: -143px;
+    margin-left: 500px;
+}
+#more1_border{
+    margin-top: -80px;
+    margin-left: -125px;
+}
+#more1_button1{
+    margin-top: -220px;
+    margin-left: -350px;
+}
+#more1_button2{
+    margin-top: -80px;
+    margin-left: 680px;
+}
+#guide{
+    margin-top: -370px;
+    margin-left: -500px;
+}
+#math{
+    margin-top: -160px;
+    margin-left: 500px;
+}
+#fengcaiTitle{
+    margin-top: 280px;
+    margin-left: -500px;
+}
+#aboutus{
+    margin-top: -143px;
+    margin-left: 500px;
+}
+#more2_border{
+    margin-top: -80px;
+    margin-left: -125px;
+}
+#more2_button1{
+    margin-top: -220px;
+    margin-left: -350px;
+}
+#more2_button2{
+    margin-top: -80px;
+    margin-left: 680px;
+}
+#fengcai{
+    margin-top: -370px;
+    margin-left: -500px;
+}
+#ROCK{
+    margin-top: -160px;
+    margin-left: 500px;
+}
+#welcomeTitle{
+    margin-top: 400px;
+    margin-left: 0;
+}
+#wel_border1{
+    margin-left:-100px;
+}
+#sister{
+    margin-top: -330px;
+    margin-left: -700px;
+}
+#wel_button1{
+    margin-top: -40px;
+    margin-left: 700px;
+}
+#wel_border2{
+    margin-top: 100px;
+    margin-left: -100px;
+}
+#brother{
+    margin-top: -330px;
+    margin-left: -700px;
+}
+#wel_button2{
+    margin-top: -40px;
+    margin-left: 700px;
+}
+#ad1{
+    position: fixed;
+    top: 200px;
+    left: 50px;
+}
+#ad1:hover{
+    top: 150px;
+}
+#ad2{
+    position: fixed;
+    top: 200px;
+    right: 50px;
+}
+#ad2:hover{
+    top: 150px;
+}
+#top{
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+}
